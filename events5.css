@@ -1,0 +1,6 @@
+.sec1{
+    display: flex;
+}
+.div1{
+    grid-template-columns: repeat(6,auto);
+}
