@@ -2,5 +2,5 @@
     display: flex;
 }
 .div1{
-    grid-template-columns: repeat(6,auto);
+    grid-template-columns:1,auto;
 }
