@@ -3,6 +3,8 @@ function val(){
     let age = document.querySelector('#age').value
     let contact = document.querySelector('#contact').value
     let email = document.querySelector('#email').value
+    let password = document.querySelector('#password').value
+    let cpassword = document.querySelector('#cpassword').value
 
     if(name ==''){
         alert("Plz enter your name")
@@ -42,6 +44,26 @@ function val(){
     else if(!(email.includes('@'))){
         alert("Plz enter correct email")
         document.querySelector('#email').focus()
+        return false
+    }
+    else if(password ==''){
+        alert("Plz enter the password")
+        document.querySelector('#password').focus()
+        return false
+    }
+    else if(!(password.match(/[~!@#$%^&*{}]/))){
+        alert("plz enter atleast one special character")
+        document.querySelector('#password').focus()
+        return false
+    }
+    else if(cpassword ==''){
+        alert("Plz enter the Confirm password")
+        document.querySelector('#cpassword').focus()
+        return false
+    }
+    else if(cpassword != password){
+        alert("Password mis match")
+        document.querySelector('#cpassword').focus()
         return false
     }
 }
