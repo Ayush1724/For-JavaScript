@@ -17,6 +17,14 @@ let a = [
 ]
 // console.log(a);
 
-a.shift()
+// a.shift()
+// console.log(a);
+ 
+let b ={
+    name:"harsh",
+    age:22,
+    contact:665544
+}
+a.unshift(b)
 console.log(a);
 
