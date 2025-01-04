@@ -15,4 +15,8 @@ let a = [
         Contact:221133
     }
 ]
+// console.log(a);
+
+a.shift()
 console.log(a);
+
