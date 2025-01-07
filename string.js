@@ -1,4 +1,4 @@
-let str = "Hello"
+let str = "Hello \n to the world"
 console.log(str[1]);
 
 console.log(str.toUpperCase());
