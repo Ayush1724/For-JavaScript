@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(207, 100, 240);
+}
+.div1{
+    height: 100px;
+}
+.div3{
+    font-size: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.div5{
+    font-size: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#s1{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#s2{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#s3{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#s4{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#s5{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#a1{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#a2{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#a3{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#a4{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#a5{padding: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#s1:hover{
+    background-color: green;
+    color: white;
+}
+#s2:hover{
+    background-color: green;
+    color: white;
+}
+#s3:hover{
+    background-color: green;
+    color: white;
+}
+#s4:hover{
+    background-color: green;
+    color: white;
+}
+#s5:hover{
+    background-color: green;
+    color: white;
+}
+#a1:hover{
+    background-color: green;
+    color: white;
+}
+#a2:hover{
+    background-color: green;
+    color: white;
+}
+#a3:hover{
+    background-color: green;
+    color: white;
+}
+#a4:hover{
+    background-color: green;
+    color: white;
+}
+#a5:hover{
+    background-color: green;
+    color: white;
+}
+.abc{
+    background-color: green;
+    color: white; 
+}
