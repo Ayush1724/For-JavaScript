@@ -6,12 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <span id="im"></span>
     <button onclick="fun()">Click her</button>
     <script>
+        let arr =["p1.jpg","p2.jpg","p3.jpg","p4.jpg","p5.jpg","p5.jpg"]
+        let x;
         function fun(){
-            let arr =["p1.jpg","p2.jpg","p3.jpg","p4.jpg","p5.jpg","p5.jpg"]
-            
+            x=Math.floor(Math.random()*arr+1)
         }
+        let y=document.getElementById('im').innerHTML="img src="+arr[x]+"'height=300px width=300px'"
     </script>
 </body>
 </html>
