@@ -10,14 +10,18 @@
     <button onclick="otp()"> Click her to generate OTP</button>
     <script>
         let arr =[1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-        let x=""
+        let h=document.getElementById('h')
+        const otp=()=>{
+        let x=""    
         for(let i=0;i<4;i++){
             x+=arr[random()]
         }
-        let h=document.getElementById('h')
+        
         h.innerHTML=x
-        function random(){
-        Math.floor(Math.random()*arr.length)
+
+        }
+        const random=()=>{
+            return Math.floor(Math.random()*arr.length)
         }
     </script>
 </body>
