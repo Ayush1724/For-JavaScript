@@ -6,18 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <head id="h">0</head>
-    <button onclick="otp()"> Click her to generate OTP</button>
+    <p id="otp"></p>
+    <br>
+    <br>
+    <button onclick="otp1()"> Click her to generate OTP</button>
     <script>
         let arr =[1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-        let h=document.getElementById('h')
-        const otp=()=>{
+       
+        const otp1=()=>{
         let x=""    
         for(let i=0;i<4;i++){
             x+=arr[random()]
         }
-        
-        h.innerHTML=x
+        let y=document.getElementById("otp");
+        y.innerHTML=x
+        console.log(x);
 
         }
         const random=()=>{
