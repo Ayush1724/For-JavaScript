@@ -4,4 +4,11 @@ let person_ob = {
     email : "ayush@gmail.com",
     password : "12345vh"
 }
+console.log(person_ob)
 localStorage.setItem("userdata",JSON.stringify(person_ob))
+let us = localStorage.getItem("userdata")
+console.log(us);
+let data = JSON.parse(localStorage.getItem("userdata"))
+console.log(data);
+
+
