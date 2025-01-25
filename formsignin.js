@@ -18,9 +18,11 @@ const up =()=>{
     if(data.email !=obj.smail)
     {
         alert("Wrong Email")
+        return false
     }
     else if (data.password!=obj.pword){
         alert("Wrong Password")
+        return false
     }
 
     
