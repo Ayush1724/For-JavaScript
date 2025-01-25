@@ -9,3 +9,19 @@ const sign = () =>{
 }
 let data=JSON.parse(localStorage.getItem("userdata"))
     
+const up =()=>{
+    let obj ={
+        smail :document.querySelector("#mail").value,
+        pword :document.querySelector("#pword").value,
+    }
+    console.log(data.name)
+    if(data.email !=obj.smail)
+    {
+        alert("Wrong Email")
+    }
+    else if (data.password!=obj.pword){
+        alert("Wrong Password")
+    }
+
+    
+}
