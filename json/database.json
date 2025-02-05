@@ -1,23 +1,7 @@
 {
-    "student":[
-        {
-            "name":"Ayush",
-            "age":24,
-            "contact":6548963,
-            "city":"Bhopal"
-        }
-        ,
-        {
-            "name":"Anuj",
-            "age":25,
-            "contact":8516868273,
-            "city":"Rajgarh"
-        },
-        {
-            "name":"Qasim",
-            "age":28,
-            "contact":123456789,
-            "city":"Bhopal"
-        }
-    ]
+  "student": [
+    {
+        
+    }
+  ]
 }
