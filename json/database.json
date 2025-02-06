@@ -1,7 +1,18 @@
 {
   "student": [
     {
-        
+      "name": "Atul",
+      "age": 27,
+      "contact": 4567878985,
+      "city": "guna",
+      "id": "95f1"
+    },
+    {
+      "id": "a290",
+      "name": "Ayush Shrivastava",
+      "age": "25",
+      "contact": "8770644508",
+      "city": "bhopal"
     }
   ]
 }
